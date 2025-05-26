@@ -1,0 +1,10 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<h2>Low Stock Items</h2>
+<ul>
+    {% for item in low_stock %}
+    <li>{{ item[1] }} - Remaining: {{ item[2] }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

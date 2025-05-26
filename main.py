@@ -1,5 +1,5 @@
 from db import setup_database
-from menu import reset_menu
+# from menu import reset_menu
 from inventory import get_low_stock, reset_inventory
 from models import MenuItem, InventoryItem
 

@@ -1,4 +1,5 @@
 from db import get_connection
+from models import get_all
 
 def reset_menu():
     conn = get_connection()
